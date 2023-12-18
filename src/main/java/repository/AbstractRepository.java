@@ -73,7 +73,12 @@ public abstract class AbstractRepository<T> implements Repository<T> {
             prepare(preparedStatement, parameters);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
-                T item = builder.build(resultSet);
+                T item = null;
+                try {
+                    item = builder.build(resultSet);
+                } catch (org.eclipse.aether.RepositoryException e) {
+                    throw new RuntimeException(e);
+                }
                 objects.add(item);
             }
         } catch (SQLException e) {
