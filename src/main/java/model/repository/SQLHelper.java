@@ -1,7 +1,7 @@
-package repository;
+package model.repository;
 
-import repository.dbconstants.PersonTableConstants;
-import repository.dbconstants.UserTableConstants;
+import model.repository.dbconstants.PersonTableConstants;
+import model.repository.dbconstants.UserTableConstants;
 
 import java.util.Map;
 

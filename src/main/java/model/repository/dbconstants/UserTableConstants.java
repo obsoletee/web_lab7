@@ -1,4 +1,4 @@
-package repository.dbconstants;
+package model.repository.dbconstants;
 
 public enum UserTableConstants {
 

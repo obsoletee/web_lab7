@@ -1,10 +1,10 @@
-package repository;
+package model.repository;
 
 import builder.PersonBuilder;
 import exception.RepositoryException;
 import model.Person;
-import repository.dbconstants.PersonTableConstants;
-import repository.specification.Parameter;
+import model.repository.dbconstants.PersonTableConstants;
+import model.repository.specification.Parameter;
 
 import java.sql.Connection;
 import java.util.HashMap;

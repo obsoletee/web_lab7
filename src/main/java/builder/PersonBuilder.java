@@ -2,7 +2,7 @@ package builder;
 
 import exception.RepositoryException;
 import model.Person;
-import repository.dbconstants.PersonTableConstants;
+import model.repository.dbconstants.PersonTableConstants;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

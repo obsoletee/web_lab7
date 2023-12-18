@@ -3,11 +3,11 @@ package service;
 import exception.RepositoryException;
 import exception.ServiceException;
 import model.User;
-import repository.RepositoryCreator;
-import repository.SQLHelper;
-import repository.UserRepository;
-import repository.specification.UserByLogin;
-import repository.specification.UserByLoginPassword;
+import model.repository.RepositoryCreator;
+import model.repository.SQLHelper;
+import model.repository.UserRepository;
+import model.repository.specification.UserByLogin;
+import model.repository.specification.UserByLoginPassword;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package repository.specification;
+package model.repository.specification;
 
 import java.util.List;
 

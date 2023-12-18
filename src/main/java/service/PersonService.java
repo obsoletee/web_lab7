@@ -3,8 +3,8 @@ package service;
 import exception.RepositoryException;
 import exception.ServiceException;
 import model.Person;
-import repository.PersonRepository;
-import repository.RepositoryCreator;
+import model.repository.PersonRepository;
+import model.repository.RepositoryCreator;
 
 import java.util.List;
 

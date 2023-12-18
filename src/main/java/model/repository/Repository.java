@@ -1,7 +1,7 @@
-package repository;
+package model.repository;
 
 import exception.RepositoryException;
-import repository.specification.Parameter;
+import model.repository.specification.Parameter;
 
 import java.util.List;
 import java.util.Optional;
