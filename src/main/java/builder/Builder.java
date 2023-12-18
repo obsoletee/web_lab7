@@ -1,6 +1,6 @@
 package builder;
 
-import exception.RepositoryException;
+import org.eclipse.aether.RepositoryException;
 
 import java.sql.ResultSet;
 
